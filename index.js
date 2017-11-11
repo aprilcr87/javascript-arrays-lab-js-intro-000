@@ -22,3 +22,12 @@ function destructivelyRemoveLastKitten(name){
   return kittens;
 }
 destructivelyRemoveLastKitten('Otis');
+
+var kittens = ['Milo', 'Garfield', 'Otis'];
+
+function destructivelyRemoveFirstKitten(name){
+  kittens.shift(name);
+  return kittens;
+}
+destructivelyRemoveFirstKitten('Milo');
+
