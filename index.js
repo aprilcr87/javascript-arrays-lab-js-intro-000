@@ -35,5 +35,6 @@ var kittens = ['Milo', 'Garfield', 'Otis'];
 
 function appendKitten(name){
 var moreKittens = [kittens,...'name'];
+return moreKittens;
 }
 appendKitten('Penny');
