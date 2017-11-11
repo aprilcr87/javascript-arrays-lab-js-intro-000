@@ -38,3 +38,10 @@ var moreKittens = [...kittens, name];
 return moreKittens;
 }
 appendKitten('Penny');
+
+function prependKitten(name){
+  var moreKittens = [name,... kittens];
+  return moreKittens;
+}
+prependKitten('Cowboy');
+
