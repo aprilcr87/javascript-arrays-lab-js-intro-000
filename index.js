@@ -50,3 +50,9 @@ function removeLastKitten(){
   return moreCats;
 }
 removeLastKitten();
+
+function removeFirstKitten(){
+  var moreCats = kittens.slice(0);
+  return moreCats;
+}
+removeFirstKitten();
