@@ -14,3 +14,11 @@ function destructivelyPrependKitten(name){
   return kittens;
 }
 destructivelyPrependKitten('Cowboy');
+
+var kittens = ['Milo', 'Garfield', 'Otis'];
+
+function destructivelyRemoveLastKitten(name){
+  kittens.pop(name);
+  return kittens;
+}
+destructivelyRemoveLastKitten('Otis');
