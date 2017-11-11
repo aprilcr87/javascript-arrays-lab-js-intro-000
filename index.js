@@ -34,7 +34,6 @@ destructivelyRemoveFirstKitten('Milo');
 var kittens = ['Milo', 'Garfield', 'Otis'];
 
 function appendKitten(name){
-  kittens = [kittens,...'Penny'];
-  return kittens;
+[kittens,...'name'];
 }
-appendKitten();
+appendKitten('Penny');
