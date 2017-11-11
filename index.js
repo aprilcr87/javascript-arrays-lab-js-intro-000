@@ -30,4 +30,3 @@ function destructivelyRemoveFirstKitten(name){
   return kittens;
 }
 destructivelyRemoveFirstKitten('Milo');
-
