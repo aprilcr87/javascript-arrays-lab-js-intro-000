@@ -1,4 +1,5 @@
 const app = "I don't do much."
 var kittens = ['Milo', 'Garfield', 'Otis'];
 
-kittens.push(Nala);
+destructivelyAppendKitten = kittens.push(Nala);
+
