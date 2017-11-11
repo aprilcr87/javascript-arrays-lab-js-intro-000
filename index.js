@@ -44,4 +44,3 @@ function prependKitten(name){
   return moreKittens;
 }
 prependKitten('Cowboy');
-
