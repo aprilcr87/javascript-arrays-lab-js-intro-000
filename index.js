@@ -52,7 +52,7 @@ function removeLastKitten(){
 removeLastKitten();
 
 function removeFirstKitten(){
-  var moreCats = kittens.slice(0);
+  var moreCats = kittens.slice(1);
   return moreCats;
 }
 removeFirstKitten();
